@@ -68,22 +68,25 @@ def calculadora():
     
      escolha = input("Digite sua escolha 1/2/3/4: ")
 
-    if escolha in ('1', '2', '3', '4'):
+        if escolha in ('1', '2', '3', '4'):
           num1 = float(input("Digite o primeiro número: "))
           num2 = float(input("Digite o segundo número: "))
 
             
         if escolha == '1':
-                print("Resultado", soma(num1, num2))
-            elif escolha == '2':
+                 print("Resultado", soma(num1, num2))
+        elif escolha == '2':
                 print("Resultado", subtracao(num1, num2))
-            elif escolha == '3':
+        elif escolha == '3':
                 print("Resultado", multiplicacao(num1, num2))
-            elif escolha == '4':
+        elif escolha == '4':
                 print("Resultado", divisao(num1, num2))
         
 
-        elif:
+            
+            
+            
+            elif:
                 print("Escolha Invalida.")
 
 calculadora()
